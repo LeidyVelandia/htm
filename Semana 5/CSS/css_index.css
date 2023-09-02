@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    max-height: 100%;
+}
+body{
+    font-size: 18px;
+    background-image: url(../img/incap\ se\ invencible2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    background-color: black;
+    border: 2px solid beige;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    color: aliceblue;
+}
+/*seccion menu*/
+ul{
+    padding: 0;
+    margin: 1px;
+}
+li{
+    display: inline;
+    list-style: none;/*quitar las viñetas*/
+    margin: 0 5px;
+    font: bold 12px verdana;
+}
